@@ -17,7 +17,8 @@ SOURCES += \
 
 HEADERS += \
     colorwidget.h \
-    mainwindow.h
+    mainwindow.h \
+    palettebutton.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
