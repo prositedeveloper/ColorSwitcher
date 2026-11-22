@@ -5,7 +5,7 @@
 #include <QVector>
 #include <QWidget>
 
-class ColorWidget : public QWidget // 1. Исправлена опечатка в названии
+class ColorWidget : public QWidget
 {
     Q_OBJECT
 public:
@@ -29,13 +29,13 @@ protected:
     void mousePressEvent(QMouseEvent *event) override;
 
 private:
-    QVector<QColor> m_palette; // 2. Исправлены круглые скобки на угловые
+    QVector<QColor> m_palette;
     int m_index;
     bool m_blinkOn;
     QColor m_blinkBackup;
 
     static QVector<QColor> defaultPalette();
     void emitCurrent();
-}; // 3. Добавлена точка с запятой
+};
 
 #endif // COLORWIDGET_H
