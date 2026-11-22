@@ -13,7 +13,8 @@ TEMPLATE = app
 SOURCES += \
     colorwidget.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    palettebutton.cpp
 
 HEADERS += \
     colorwidget.h \

@@ -9,10 +9,9 @@ class PaletteButton : public QPushButton
 public:
     explicit PaletteButton(const QColor &color, QWidget *parent = nullptr);
     ~PaletteButton() override;
-    QColor color() const { return m_color; } // тело внутри класса => неявный
-inline, это легально
-    private:
-              QColor m_color;
+    QColor color() const { return m_color; }
+private:
+    QColor m_color;
 };
 
 
